@@ -45,6 +45,16 @@ and install any pre-requisite the code needs (such as discord.js or anything els
 
 You can use a full path in here, or a relative path (like `npx create-aig-bot D:/blah/foo/my-bot`), but it's easier just to go in the folder you want it in.
 
+## After Installation
+
+Once the npx script finishes (it shouldn't take very long), you'll need to configure the code to use your own token, prefix, etc. 
+
+Templates may have a different way of doing this, a message will inform you of the method after installation. Could be a .env or a config.json file. 
+
+Guidebot and Guidebot-class will run their own post-installer and ask for things like your token and a prefix, so that configuration will be done for you.
+
+Once your token and other information are put in and saved, you can `cd my-bot` (or whatever folder where the files were created) and run `node .` to start the bot.
+
 ## Available Templates
 
 Here is a list of the currently available templates and the repository where they are hosted, if you want to take a look at the code.

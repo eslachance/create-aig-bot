@@ -25,6 +25,14 @@
   ],
   "author": "Evelyne Lachance <eslachance@gmail.com>",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eslachance/create-aig-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eslachance/create-aig-bot"
+  },
+  "homepage": "https://github.com/eslachance/create-aig-bot",
   "dependencies": {
     "mkdirp": "^1.0.4",
     "prompts": "^2.3.2"
