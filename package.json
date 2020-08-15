@@ -1,5 +1,5 @@
 {
-  "name": "create-discord-bot",
+  "name": "create-aig-bot",
   "version": "0.0.1",
   "description": "NPX script to create a basic discord.js bot from a boilerplate",
   "main": "index.js",
