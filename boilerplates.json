@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Basic",
+    "value": "basic",
+    "description": "A very basic bot in one file, and a simple ping command",
+    "github": "https://github.com/eslachance/bf-basic.git",
+    "postinstall": "The basic boilerplate is now installed. Please put your token in the .env file (see README for details) and run: node index.js"
+  },
+  {
+    "title": "Argument Parser",
+    "value": "args",
+    "description": "A simple bot in one file with argument parsing and a prefix built-in",
+    "github": "https://github.com/eslachance/bf-arguments.git",
+    "postinstall": "The argument parser boilerplate is now installed. Please put your token in the .env file (see README for details) and run: node index.js"
+  },
+  {
+    "title": "Command and Event Handler",
+    "value": "handler",
+    "description": "A bot with commands and events in their own folder, ready to add your own",
+    "github": "https://github.com/eslachance/djs-handler.git",
+    "postinstall": "The argument parser boilerplate is now installed. Please rename config.json.example to config.json, edit the token and prefix, and run: node index.js"
+  },
+  {
+    "title": "GuideBot",
+    "value": "guidebot",
+    "description": "The Official GuideBot Boilerplate with a few useful commands!",
+    "github": "https://github.com/AnIdiotsGuide/guidebot.git"
+  },
+  {
+    "title": "GuideBot Class",
+    "value": "guidebot-class",
+    "description": "The Class-based version of the above, if you prefer classes.",
+    "github": "https://github.com/AnIdiotsGuide/guidebot-class.git"
+  }
+]

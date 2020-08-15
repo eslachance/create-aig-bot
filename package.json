@@ -1,0 +1,22 @@
+{
+  "name": "create-discord-bot",
+  "version": "0.0.1",
+  "description": "NPX script to create a basic discord.js bot from a boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord.js",
+    "bot",
+    "bot",
+    "maker",
+    "boilerplate"
+  ],
+  "author": "Evelyne Lachance <eslachance@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "mkdirp": "^1.0.4",
+    "prompts": "^2.3.2"
+  }
+}
