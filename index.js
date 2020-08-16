@@ -16,6 +16,8 @@ todo: re-add to boilerplate.json after creating the repository.
 const clone = require('./clone');
 const installRepo = require('./install');
 const postInstall = require('./postinstall');
+const checkDeps = require('./checkDeps');
+const checkRun = require('./checkDeps');
 
 const myArgs = process.argv.slice(2);
 const name = myArgs[0];
@@ -47,6 +49,7 @@ if(!name) {
     console.log(`Template ${template} chosen, proceeding to download...`);
     const originalDirectory = process.cwd();
     const root = path.resolve(name);
+    await checkRun()
     await clone({ ...boilerplate, name, root});
     await installRepo({ name, root });
     await postInstall({ ...boilerplate });
