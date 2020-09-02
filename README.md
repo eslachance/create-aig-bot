@@ -45,6 +45,14 @@ and install any pre-requisite the code needs (such as discord.js or anything els
 
 You can use a full path in here, or a relative path (like `npx create-aig-bot D:/blah/foo/my-bot`), but it's easier just to go in the folder you want it in.
 
+## Pre-selecting template (non-interactive)
+
+You can also directly install a template without showing the selector menu, by adding the template's name after the folder.
+
+Template names are: `basic`, `args`, `handler`, `guidebot`, `guidebot-class`. 
+
+For example to install the `handler` template in a folder called `mybot`, just run: `npx create-aig-bot myBot handler`.
+
 ## After Installation
 
 Once the npx script finishes (it shouldn't take very long), you'll need to configure the code to use your own token, prefix, etc. 
