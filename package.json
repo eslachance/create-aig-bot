@@ -34,7 +34,10 @@
   },
   "homepage": "https://github.com/eslachance/create-aig-bot",
   "dependencies": {
+    "chalk": "^4.1.0",
+    "command-exists": "^1.2.9",
     "mkdirp": "^1.0.4",
-    "prompts": "^2.3.2"
+    "prompts": "^2.3.2",
+    "syntax-error": "^1.4.0"
   }
 }
